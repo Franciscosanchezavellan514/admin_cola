@@ -60,9 +60,16 @@ namespace admin_cola
                 textBox_nombre.Text = empledado.Nombre;
                 textBox_salario.Text = empledado.Salario.ToString();
                 dateTimePicker_fecha.Value = empledado.Fecha;
-                dataGridView1.DataSource = Trabajadores.ToString();
+                dataGridView1.DataSource = Trabajadores.ToList();
+                MessageBox.Show("Se elimino los registro en cola", "Aviso");
                 Limpiar() ;
             }
+            else
+            {
+                MessageBox.Show("No hay registros en la cola", "Aviso");
+            }
+            textBox_carnet.Focus ();
+
         }
 
         private void button_salir_Click(object sender, EventArgs e)
