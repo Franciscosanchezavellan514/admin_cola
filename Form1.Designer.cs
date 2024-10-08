@@ -51,6 +51,7 @@
             this.textBox_nombre.Name = "textBox_nombre";
             this.textBox_nombre.Size = new System.Drawing.Size(300, 20);
             this.textBox_nombre.TabIndex = 0;
+            this.textBox_nombre.TextChanged += new System.EventHandler(this.textBox_nombre_TextChanged);
             // 
             // textBox_carnet
             // 
@@ -58,6 +59,7 @@
             this.textBox_carnet.Name = "textBox_carnet";
             this.textBox_carnet.Size = new System.Drawing.Size(300, 20);
             this.textBox_carnet.TabIndex = 1;
+            this.textBox_carnet.TextChanged += new System.EventHandler(this.textBox_carnet_TextChanged);
             // 
             // textBox_salario
             // 
@@ -65,6 +67,7 @@
             this.textBox_salario.Name = "textBox_salario";
             this.textBox_salario.Size = new System.Drawing.Size(300, 20);
             this.textBox_salario.TabIndex = 2;
+            this.textBox_salario.TextChanged += new System.EventHandler(this.textBox_salario_TextChanged);
             // 
             // button_registrar
             // 
@@ -102,6 +105,7 @@
             this.dateTimePicker_fecha.Name = "dateTimePicker_fecha";
             this.dateTimePicker_fecha.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker_fecha.TabIndex = 6;
+            this.dateTimePicker_fecha.ValueChanged += new System.EventHandler(this.dateTimePicker_fecha_ValueChanged);
             // 
             // label1
             // 
@@ -112,6 +116,7 @@
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Carnet";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -121,6 +126,7 @@
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Fecha";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -130,6 +136,7 @@
             this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Salario";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -158,6 +165,7 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // dataGridView1
             // 
@@ -167,6 +175,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(484, 150);
             this.dataGridView1.TabIndex = 12;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form1
             // 

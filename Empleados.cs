@@ -13,5 +13,6 @@ namespace admin_cola
         public string Nombre { get; set; }
         public decimal Salario { get; set; }
         public DateTime Fecha { get; set; }
+        //test 01
     }
 }

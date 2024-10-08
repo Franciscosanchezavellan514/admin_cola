@@ -69,5 +69,50 @@ namespace admin_cola
         {
             this.Close();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_carnet_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_nombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_salario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker_fecha_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
